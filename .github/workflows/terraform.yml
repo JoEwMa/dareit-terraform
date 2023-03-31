@@ -1,10 +1,9 @@
 name: 'Terraform CI'
 
 on:
-  push:
+  pull:
     branches:
     - main
-pull-requests: write
 
 jobs:
   terraform:
