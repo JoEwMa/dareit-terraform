@@ -1,7 +1,6 @@
 resource "google_storage_bucket" "static-site" {
   name          = "add-bucket"
-  location      = "EU"
-  force_destroy = true
+  location      = "US"
 
   uniform_bucket_level_access = true
 
