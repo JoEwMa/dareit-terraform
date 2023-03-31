@@ -1,5 +1,5 @@
 resource "google_storage_bucket" "static-site" {
-  name          = "add-bucket"
+  name          = "task7"
   location      = "US"
 
   website {
